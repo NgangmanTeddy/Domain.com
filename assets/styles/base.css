@@ -171,7 +171,7 @@ Box Model
 
 .domain_cont {
 	background-color: yellowgreen;
-	width: 100%;
+	width: 99.1%;
 	height: 423px;
 	display: flex;
 	align-items: center;
@@ -179,19 +179,26 @@ Box Model
 }
 
 .domain_hd {
+	background-color: tomato;
 	width: 100%;
+	height: 137px;
 }
 
 .domain_main {
 	background-color: blanchedalmond;
+	width: 100%;
+	height: 286px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .dom {
 	background-color: bisque;
-	width: 32%;
-	height: 250px;
+	width: 30.5%;
+	height: 286px;
+	margin-right: 15px;
+	margin-left: 15px;
 
 }
 
@@ -204,25 +211,34 @@ Box Model
 =================================================================================
 */
 
-.serv {
+.services {
 	background-color: burlywood;
-	width: 87%;
-	margin: 0 auto;
-	height: 860px;
+	width: 100%;
+	height: 1105px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
 }
 
-.serv_left {
+.services_cont {
+	background-color: thistle;
+	width: 88%;
+	height: 905px;
+	display: flex;
+}
+
+.services_left {
 	background-color: cadetblue;
 	width: 48%;
-	height: inherit;
+	height: 905px;
+	margin: 0 15px;
 }
 
-.serv_right {
+.services_right {
 	background-color: chartreuse;
 	width: 48%;
-	height: 740px;
+	height: 905px;
+	margin: 0 15px;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -231,7 +247,7 @@ Box Model
 .right_hd {
 	background-color: chocolate;
 	width: 100%;
-	height: 260px;
+	height: 270px;
 }
 
 .right_main {
@@ -251,28 +267,33 @@ Box Model
 
 .Privacy {
 	background-color: cornflowerblue;
-	width: 87%;
+	width: 100%;
 	margin: 0 auto;
-	height: 770px;
+	height: 581px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
 .priv_cont {
 	background-color: darkcyan;
-	width: 100%;
+	width: 88%;
 	height: 570px;
 }
 
 .priv_bd {
+	width: 88%;
+	height: 541;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
 
 .priv_main {
 	background-color: darkgrey;
-	width: 48.5%;
-	height: 439px;
+	width: 48%;
+	height: 514px;
+	margin: 0 15px;
 }
 
 
@@ -286,27 +307,32 @@ Box Model
 
 .help {
 	background-color: darkgreen;
-	width: 85%;
-	margin: 0 auto;
-	height: 440px;
+	width: 100%;
+	height: 647px;
 	display: flex;
-	flex-wrap: wrap;
-	align-items: end;
 	justify-content: center;
+	align-items: center;
 }
 
-.help_bd {
+.help_cont {
+	background-color: teal;
+	width: 88%;
+	height: 447px;
+	padding: 15px 0;
+}
+
+.help_body {
 	background-color: darkkhaki;
-	height: 273px;
+	width: 100%;
+	height: 330px;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .help_main {
 	background-color: darkmagenta;
 	width: 32%;
-	height: 273px;
+	height: 330px;
 } 
 
 
@@ -320,8 +346,15 @@ Box Model
 
 .quest {
 	background-color: darkolivegreen;
-	width: 85%;
-	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.quest_cont {
+	background-color: springgreen;
+	width: 88%;
 	height: auto;
 }
 
