@@ -1,0 +1,379 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+=================================================================================
+=================================================================================
+# Base
+  – normalize
+  – layout
+  – typography
+=================================================================================
+=================================================================================
+*/
+
+
+/* 
+=================================================================================
+=================================================================================
+ header pre
+=================================================================================
+=================================================================================
+*/
+
+.head_pre {
+	background-color: antiquewhite;
+	width: 100%;
+	height: 43px;
+}
+
+.head_pre_cont {
+	background-color: antiquewhite;
+	display: flex;
+	margin-left: 60px;
+}
+
+.head_logo {
+	background-color: aqua;
+	width: 86px;
+	height: 43px;
+}
+
+.head_link {
+	background-color: aquamarine;
+	width: 133px;
+	height: 43px;
+}
+
+.head_main {
+	background-color: aqua;
+	width: 85%;
+	height: 80px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head_main_cont {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ hero
+=================================================================================
+=================================================================================
+*/
+
+.hero {
+	background-color: aquamarine;
+	width: 100%;
+	height: 645px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ aft_hr
+=================================================================================
+=================================================================================
+*/
+
+.domain {
+	background-color: azure;
+	width:88%;
+	margin: 0 auto;
+	height: 623px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.domain_cont {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 423px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.domain_hd {
+	width: 100%;
+}
+
+.domain_main {
+	background-color: blanchedalmond;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dom {
+	background-color: bisque;
+	width: 32%;
+	height: 250px;
+
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ services
+=================================================================================
+=================================================================================
+*/
+
+.serv {
+	background-color: burlywood;
+	width: 87%;
+	margin: 0 auto;
+	height: 860px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.serv_left {
+	background-color: cadetblue;
+	width: 48%;
+	height: inherit;
+}
+
+.serv_right {
+	background-color: chartreuse;
+	width: 48%;
+	height: 740px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.right_hd {
+	background-color: chocolate;
+	width: 100%;
+	height: 260px;
+}
+
+.right_main {
+	background-color: coral;
+	width: 100%;
+	height: 120px;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ privacy
+=================================================================================
+=================================================================================
+*/
+
+.Privacy {
+	background-color: cornflowerblue;
+	width: 87%;
+	margin: 0 auto;
+	height: 770px;
+	display: flex;
+	align-items: center;
+}
+
+.priv_cont {
+	background-color: darkcyan;
+	width: 100%;
+	height: 570px;
+}
+
+.priv_bd {
+	display: flex;
+	justify-content: space-between;
+}
+
+.priv_main {
+	background-color: darkgrey;
+	width: 48.5%;
+	height: 439px;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ help
+=================================================================================
+=================================================================================
+*/
+
+.help {
+	background-color: darkgreen;
+	width: 85%;
+	margin: 0 auto;
+	height: 440px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: end;
+	justify-content: center;
+}
+
+.help_bd {
+	background-color: darkkhaki;
+	height: 273px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.help_main {
+	background-color: darkmagenta;
+	width: 32%;
+	height: 273px;
+} 
+
+
+/* 
+=================================================================================
+=================================================================================
+ quest
+=================================================================================
+=================================================================================
+*/
+
+.quest {
+	background-color: darkolivegreen;
+	width: 85%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.quest_bd {
+	background-color: darkorange;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.quest_main {
+	background-color: gold;
+	width: 100%;
+	height: auto;
+	margin: 10px 0px;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+aft _quest
+=================================================================================
+=================================================================================
+*/
+
+.aft_quest {
+	background-color: yellowgreen;
+	width: 85%;
+	margin: 0 auto;
+	height: 220px;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+footer
+=================================================================================
+=================================================================================
+*/
+
+.ft_left {
+	background-color: steelblue;
+	width: 34%;
+	height: inherit;
+}
+
+.ft_right {
+	background-color: teal;
+	width: 66%;
+	height: inherit;
+}
