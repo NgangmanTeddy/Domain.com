@@ -84,58 +84,6 @@ Box Model
 /* 
 =================================================================================
 =================================================================================
- header pre
-=================================================================================
-=================================================================================
-*/
-
-.head_pre {
-	background-color: antiquewhite;
-	width: 100%;
-	height: 43px;
-}
-
-.head_pre_cont {
-	background-color: antiquewhite;
-	display: flex;
-	margin-left: 60px;
-}
-
-.head_logo {
-	background-color: aqua;
-	width: 86px;
-	height: 43px;
-}
-
-.head_link {
-	background-color: aquamarine;
-	width: 133px;
-	height: 43px;
-}
-
-.head_main {
-	background-color: aqua;
-	width: 85%;
-	height: 80px;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.head_main_cont {
-	background-color: yellowgreen;
-	width: 100%;
-	height: 50px;
-	display: flex;
-	justify-content: space-between;
-	overflow: hidden;
-}
-
-
-/* 
-=================================================================================
-=================================================================================
  hero
 =================================================================================
 =================================================================================
@@ -394,19 +342,52 @@ aft _quest
 /* 
 =================================================================================
 =================================================================================
-footer
+ Typography
 =================================================================================
 =================================================================================
 */
 
-.ft_left {
-	background-color: steelblue;
-	width: 34%;
-	height: inherit;
+
+/* 
+=================================================================================
+=================================================================================
+ general
+=================================================================================
+=================================================================================
+*/
+
+
+h1 p {
+	font-size: 75px;
+	line-height: 80px;
+	font-weight: 900;
 }
 
-.ft_right {
-	background-color: teal;
-	width: 66%;
-	height: inherit;
+h2 p {
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 900;
+}
+h3 p {
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+h4 p {
+	font-size: 22px;
+	line-height: 27px;
+	font-weight: 300;
+}
+
+/* h5 p {
+	font-size: ;
+	line-height: ;
+	font-weight: ;
+} */
+
+h6 p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
 }

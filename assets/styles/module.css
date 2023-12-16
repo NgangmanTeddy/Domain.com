@@ -88,6 +88,49 @@ header
 =================================================================================
 */
 
+.head_pre {
+	background-color: antiquewhite;
+	width: 100%;
+	height: 43px;
+}
+
+.head_pre_cont {
+	background-color: antiquewhite;
+	display: flex;
+	margin-left: 60px;
+}
+
+.head_logo {
+	background-color: aqua;
+	width: 86px;
+	height: 43px;
+}
+
+.head_link {
+	background-color: aquamarine;
+	width: 133px;
+	height: 43px;
+}
+
+.head_main {
+	background-color: aqua;
+	width: 85%;
+	height: 80px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head_main_cont {
+	background-color: yellowgreen;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
 
 /* 
 =================================================================================
@@ -104,4 +147,14 @@ footer {
 	display: flex;
 }
 
+.footer_left {
+	background-color: steelblue;
+	width: 34%;
+	height: inherit;
+}
 
+.footer_right {
+	background-color: teal;
+	width: 66%;
+	height: inherit;
+}
