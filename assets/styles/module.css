@@ -123,12 +123,17 @@ header
 }
 
 .head_main_cont {
-	background-color: yellowgreen;
+	background-color: cadetblue;
 	width: 100%;
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
 	overflow: hidden;
+}
+
+.head_logo_2 {
+	background-color: wheat;
+	width: 14.8%;
 }
 
 
@@ -157,4 +162,37 @@ footer {
 	background-color: teal;
 	width: 66%;
 	height: inherit;
+}
+
+.footer_cont {
+	background-color: yellowgreen;
+	width: 74.3%;
+	height: 680px;
+	margin: 50px 15px 15px 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.footer_pre {
+	background-color: antiquewhite;
+	width: 100%;
+	height: 79px;
+}
+
+.footer_col_3 {
+	background-color: turquoise;
+	width: 100%;
+	height: 35px;
+}
+
+.footer_col_4 {
+	background-color: rgb(82, 128, 123);
+	width: 100%;
+	height: 58.4px;
+}
+
+.footer_div {
+	background-color: wheat;
+	height: 300px;
 }
