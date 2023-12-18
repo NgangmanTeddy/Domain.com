@@ -177,5 +177,45 @@ header list
 */
 
 .drop_down {
-	display: none;
+	 display: none;
+}
+
+
+/* 
+==================================================================================
+==================================================================================
+ drop down
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
+header drop down
+==================================================================================
+*/
+
+.drop_container {
+	display: inline-block;
+}
+
+.drop_down {
+	background-color: yellowgreen;
+	width: 250px;
+	height: auto;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.drop_down li {
+	background-color: crimson;
+	width: 100%;
+	height: auto;
+	padding: 12px;
+	margin: 10px 0;
+}
+
+.main_li:hover ~ .drop_down {
+	display: block;
+	position: absolute;
 }

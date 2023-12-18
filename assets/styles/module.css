@@ -128,7 +128,7 @@ header
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .head_logo_2 {
