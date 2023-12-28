@@ -91,6 +91,72 @@ Box Model
 
 /* 
 ==================================================================================
+services
+==================================================================================
+*/
+
+.service_btn {
+	display: inline-block;
+	background-color: #000000;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	width: 33%;
+	height: 53px;
+	padding: 17px 39px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+/* 
+==================================================================================
+private
+==================================================================================
+*/
+
+.priv_btn {
+	background-color: #000000;
+	color: white;
+	padding: 15px 0;
+	text-align: center;
+	width: 88.88%;
+	height: 53px;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 30px;
+}
+
+/* 
+==================================================================================
+help
+==================================================================================
+*/
+
+.help_btn {
+	background-color: white;
+	color: #000000;
+	font-size: 14px;
+	padding: 15px 0;
+	text-align: center;
+	width: 84%;
+	height: 53px;
+	border: 2px solid black;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 20px;
+
+}
+
+/* 
+==================================================================================
+==================================================================================
+ nav
+==================================================================================
+==================================================================================
+*/
+
+/* 
+==================================================================================
 header nav
 ==================================================================================
 */
@@ -171,13 +237,80 @@ header list
 /* 
 ==================================================================================
 ==================================================================================
- drop downs
+ search bar
 ==================================================================================
 ==================================================================================
 */
 
-.drop_down {
-	 display: none;
+/* 
+==================================================================================
+hero
+==================================================================================
+*/
+
+.search-field {
+    height: 65px;
+	width: 800px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+}
+
+.hero::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	color: #000000;
+	font-weight: 100;
+	line-height: 65px;
+	margin-left: 20px;
+}
+
+.search-btn {
+    height: 65px;
+    width: 150px;
+    background: #f44336;
+	border-radius: 5px;
+	border: none;
+    color: #fff;
+}
+.search-btn {
+    background: #bb0d00;
+    cursor: pointer;
+}
+.form-box {
+    margin: 20px 0 10px 0;
+}
+
+/* 
+==================================================================================
+domain
+==================================================================================
+*/
+
+.dom_form {
+	width: 88.6%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dom_form div {
+	display: inline-block;
+}
+
+.dom_search {
+	display: inline-block;
+	width: 75%;
+	height: 50px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	flex-shrink: 0;
+}
+
+.dom_search::placeholder {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
 }
 
 
@@ -200,6 +333,7 @@ header drop down
 }
 
 .drop_down {
+	display: none;
 	background-color: yellowgreen;
 	width: 250px;
 	height: auto;

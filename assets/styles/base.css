@@ -98,6 +98,10 @@ Box Model
 	align-items: center;
 }
 
+.hero_cont {
+	width: max-content;
+	height: max-content;
+}
 
 /* 
 =================================================================================
@@ -185,7 +189,7 @@ Box Model
 .services_right {
 	background-color: chartreuse;
 	width: 48%;
-	height: 905px;
+	height: 800px;
 	margin: 0 15px;
 	display: flex;
 	flex-wrap: wrap;
@@ -201,7 +205,7 @@ Box Model
 .right_main {
 	background-color: coral;
 	width: 100%;
-	height: 120px;
+	height: max-content;
 }
 
 
@@ -230,20 +234,32 @@ Box Model
 }
 
 .priv_bd {
-	width: 88%;
+	width: 100%;
 	height: 541;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 37px;
 }
 
 .priv_main {
 	background-color: darkgrey;
-	width: 48%;
-	height: 514px;
-	margin: 0 15px;
+	width: 48.5%;
+	height: 500px;
+	position: relative;
 }
 
+.priv_main div:nth-child(2) {
+	width: auto;
+	margin: 0 30px;
+}
+
+.priv_img {
+	background-color: tan;
+	width: 100%;
+	height: 195.2px;
+	margin-bottom: 30px;
+}
 
 /* 
 =================================================================================
@@ -266,13 +282,12 @@ Box Model
 	background-color: teal;
 	width: 88%;
 	height: 447px;
-	padding: 15px 0;
 }
 
 .help_body {
 	background-color: darkkhaki;
 	width: 100%;
-	height: 330px;
+	height: 300px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -280,9 +295,23 @@ Box Model
 .help_main {
 	background-color: darkmagenta;
 	width: 32%;
-	height: 330px;
+	height: 300px;
+	border-radius: 5px;
+	position: relative;
 } 
 
+.help_main div:nth-child(2) {
+	width: auto;
+	margin: 35px 30px;
+
+}
+
+.help_img {
+	background-color: chartreuse;
+	width: 100%;
+	height: 48px;
+	border-radius: 5px 5px 0 0;
+}
 
 /* 
 =================================================================================
@@ -320,6 +349,8 @@ Box Model
 	width: 100%;
 	height: auto;
 	margin: 10px 0px;
+	border-radius: 5px;
+	padding: 25px 20px;
 }
 
 
@@ -335,59 +366,7 @@ aft _quest
 	background-color: yellowgreen;
 	width: 85%;
 	margin: 0 auto;
-	height: 220px;
+	height: 200px;
 }
 
 
-/* 
-=================================================================================
-=================================================================================
- Typography
-=================================================================================
-=================================================================================
-*/
-
-
-/* 
-=================================================================================
-=================================================================================
- general
-=================================================================================
-=================================================================================
-*/
-
-
-h1 p {
-	font-size: 75px;
-	line-height: 80px;
-	font-weight: 900;
-}
-
-h2 p {
-	font-size: 48px;
-	line-height: 55px;
-	font-weight: 900;
-}
-h3 p {
-	font-size: 26px;
-	line-height: 26px;
-	font-weight: 700;
-}
-
-h4 p {
-	font-size: 22px;
-	line-height: 27px;
-	font-weight: 300;
-}
-
-/* h5 p {
-	font-size: ;
-	line-height: ;
-	font-weight: ;
-} */
-
-h6 p {
-	font-size: 16px;
-	line-height: 22px;
-	font-weight: 400;
-}

@@ -1,0 +1,278 @@
+/* 
+=================================================================================
+=================================================================================
+ Typography
+=================================================================================
+=================================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+/* 
+=================================================================================
+=================================================================================
+ general
+=================================================================================
+=================================================================================
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1 p {
+	font-size: 75px;
+	line-height: 80px;
+	font-weight: 900;
+}
+
+h2 p {
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 900;
+}
+h3 p {
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+h4 p {
+	font-size: 22px;
+	line-height: 27px;
+	font-weight: 300;
+}
+
+/* h5 p {
+	font-size: ;
+	line-height: ;
+	font-weight: ;
+} */
+
+h6 p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+}
+
+/* 
+=================================================================================
+=================================================================================
+ specific
+=================================================================================
+=================================================================================
+*/
+
+
+/* 
+=================================================================================
+hero
+=================================================================================
+*/
+
+.hero_cont h1,
+.hero_cont h3 {
+    text-align: center;
+}
+
+.hero_cont h1 p {
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero_cont h3 p {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.aft_form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_cont .trans {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+}
+
+.hero_cont h6 p {
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* 
+=================================================================================
+domain 
+=================================================================================
+*/
+
+.domain_hd {
+    text-align: center;
+}
+
+.domain_hd h2 {
+    margin-bottom: 20px;
+}
+
+.domain_hd h3 p {
+    line-height: 32px;
+    color: #333;
+    font-weight: 300;
+}
+
+.dom h2 {
+    margin: 20px 0 15px 0;
+}
+
+.dom h6 p {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dom h4 p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* 
+=================================================================================
+services
+=================================================================================
+*/
+
+.serv_hd {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 17px
+}
+
+.right_hd h2 {
+    margin-bottom: 20px;
+}
+
+.right_hd h3 p {
+    color: #333;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.right_main h4 p {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.right_main h6 p {
+    font-weight: 400;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+
+.right_main div h6 {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.right_main div h6 p {
+    color: #333;
+    font-weight: 700;
+}
+
+/* 
+=================================================================================
+privacy
+=================================================================================
+*/
+
+.priv_hd p {
+    font-weight: 300;
+    line-height: 32px;
+    color: #666666;
+    text-align: center;
+}
+
+.priv_main p {
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.priv_main h6 p {
+    font-weight: 400;
+    color: #333;
+    line-height: 22px;
+}
+
+/* 
+=================================================================================
+help
+=================================================================================
+*/
+
+.help_head {
+    text-align: center;
+}
+
+.help_head h2 {
+    margin-bottom: 15px;
+}
+
+.help_head h3 p {
+    font-weight: 300;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.help_main p {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.help_main h6 p {
+    font-weight: 400;
+    color: #333;
+}
+
+/* 
+=================================================================================
+quest
+=================================================================================
+*/
+
+.quest_hd h3 p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.quest_main h4 p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.quest_main h6 p {
+    font-weight: 400;
+    color: #333;
+}
+
+/* 
+=================================================================================
+after quest
+=================================================================================
+*/
+
+.aft_quest p {
+    font-weight: 400;
+    color: #666666;
+}

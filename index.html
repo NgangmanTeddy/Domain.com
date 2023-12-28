@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/styles/base.css">
     <link rel="stylesheet" href="./assets/styles/component.css">
     <link rel="stylesheet" href="./assets/styles/module.css">
+    <link rel="stylesheet" href="./assets/styles/fonts.css">
 </head>
 
 <body>
@@ -117,18 +118,24 @@
     <section class="hero">
         <div class="hero_cont">
             <h1>
-                <P>DO MORE.ONLINE</P>
+                <P>DO MORE .ONLINE</P>
             </h1>
             <h3>
                 <P>Get started with the perfect domain.</P>
             </h3>
-            <P><a href="#">
-                    <h3>SEARCH BAR</h3>
-                </a></P>
-            <p><a href="#">Transfer a domain you already own</a></p>
-            <h6>
-                <p>.COM only $11.99 .NET only $14.99</p>
-            </h6>
+            <form action="">
+                <div class="form-box">
+                    <input type="text" class="search-field skills" name="search"
+                        placeholder="Find and purchase a domain name">
+                    <button class="search-btn" type="button">Search</button>
+                </div>
+            </form>
+            <div class="aft_form">
+                <p><a href="#" class="trans">Transfer a domain you already own</a></p>
+                <h6>
+                    <p>.COM only $11.99 .NET only $14.99</p>
+                </h6>
+            </div>
         </div>
     </section>
     <!-- Domains
@@ -159,7 +166,10 @@
                     <h4>
                         <p>Starting at $3.99/first year*</p>
                     </h4>
-                    <p>search bar</p>
+                    <form class="dom_form" action="">
+                        <input class="dom_search" type="text" placeholder="Search .me domains">
+                        <div>ico</div>
+                    </form>
                 </section>
                 <section class="dom">
                     <h2>
@@ -171,7 +181,10 @@
                     <h4>
                         <p>Starting at $1.99/first year*</p>
                     </h4>
-                    <p>search bar</p>
+                    <form class="dom_form" action="">
+                        <input class="dom_search" type="text" placeholder="Search .me domains">
+                        <div>ico</div>
+                    </form>
                 </section>
                 <section class="dom">
                     <h2>
@@ -183,7 +196,10 @@
                     <h4>
                         <p>Starting at $6.99/first year*</p>
                     </h4>
-                    <p>search bar</p>
+                    <form class="dom_form" action="">
+                        <input class="dom_search" type="text" placeholder="Search .me domains">
+                        <div>ico</div>
+                    </form>
                 </section>
             </section>
         </div>
@@ -198,7 +214,7 @@
             <div class="services_left">img</div>
             <section class="services_right">
                 <section class="right_hd">
-                    <p>CREATE A WEBSITE</p>
+                    <p class="serv_hd">CREATE A WEBSITE</p>
                     <h2>
                         <p>PICK YOUR PATH TO A</p>
                         <p>BRAND NEW WEBSITE</p>
@@ -218,10 +234,12 @@
                         <p>Want your domain name for free? Pair it with our reliable hosting and it's on us for the
                             first year.</p>
                     </h6>
-                    <p class="btn"><a href="#">LEARN MORE</a></p>
-                    <h6>
-                        <p>As low as $3.75/mo*</p>
-                    </h6>
+                    <div>
+                        <p class="btn service_btn">LEARN MORE</p>
+                        <h6>
+                            <p>As low as $3.75/mo*</p>
+                        </h6>
+                    </div>
                 </section>
                 <section class="right_main">
                     <h4>
@@ -232,10 +250,12 @@
                             site is
                             built just for you.</p>
                     </h6>
-                    <p class="btn"><a href="#">LEARN MORE</a></p>
-                    <h6>
-                        <p>As low as $1.99/mo*</p>
-                    </h6>
+                    <div>
+                        <p class="btn service_btn">LEARN MORE</p>
+                        <h6>
+                            <p>As low as $1.99/mo*</p>
+                        </h6>
+                    </div>
                 </section>
                 <section class="right_main">
                     <h4>
@@ -246,10 +266,12 @@
                             to business.
                         </p>
                     </h6>
-                    <p class="btn"><a href="#">LEARN MORE</a></p>
-                    <h6>
-                        <p>Free Design Consultation</p>
-                    </h6>
+                    <div>
+                        <p class="btn service_btn">LEARN MORE</p>
+                        <h6>
+                            <p>Free Design Consultation</p>
+                        </h6>
+                    </div>
                 </section>
             </section>
         </section>
@@ -268,30 +290,39 @@
             </div>
             <section class="priv_bd">
                 <section class="priv_main">
-                    <div><a href="#">img</a></div>
+                    <div class="priv_img"><a href="#">img</a></div>
                     <div>
-                        <p>Professional Email and Productivity</p>
-                        <h6>
-                            <p>Look like a pro with an email address that matches your domain. With Google Workspace,
-                                you'll also
-                                get productivity tools for collaboration, file sharing, video chat, and more.</p>
-                        </h6>
+                        <div>
+                            <p>Professional Email and Productivity</p>
+                            <h6>
+                                <p>
+                                    Look like a pro with an email address that matches your domain. With Google
+                                    Workspace,
+                                    you'll also get productivity tools for collaboration, file sharing, video chat, and
+                                    more.
+                                </p>
+                            </h6>
+                        </div>
+                        <p class="btn priv_btn">EXPLORE GOOGLE WORKSPACE</p>
                     </div>
-                    <p class="btn"><a href="#">EXPLORE GOOGLE WORKSPACE</a></p>
                 </section>
                 <section class="priv_main">
-                    <div><a href="#">img</a></div>
+                    <div class="priv_img"><a href="#">img</a></div>
                     <div>
-                        <p>Secure Your Site</p>
-                        <h6>
-                            <p>These days, website security requires more than just an SSL certificate — which, by the
-                                way, you
-                                ought to have. Total security means having the right protection in place for whatever
-                                virtual
-                                threats come your way.</p>
-                        </h6>
+                        <div>
+                            <p>Secure Your Site</p>
+                            <h6>
+                                <p>
+                                    These days, website security requires more than just an SSL certificate — which, by
+                                    the
+                                    way, you ought to have. Total security means having the right protection in place
+                                    for whatever
+                                    virtual threats come your way.
+                                </p>
+                            </h6>
+                        </div>
+                        <p class="btn priv_btn">COMPARE SECURITY OPTIONS</p>
                     </div>
-                    <p class="btn"><a href="#">COMPARE SECURITY OPTIONS</a></p>
                 </section>
             </section>
         </section>
@@ -313,30 +344,39 @@
             </section>
             <section class="help_body">
                 <section class="help_main">
-                    <div><a href="#">img</a></div>
-                    <p>Top Notch Support</p>
-                    <h6>
-                        <p>If you ever run into any problems, just use chat and we'll help you get it fixed fast.</p>
-                    </h6>
-                    <p class="btn"><a href="#">LIVE CHAT</a></p>
+                    <div class="help_img"><a href="#">img</a></div>
+                    <div>
+                        <p>Top Notch Support</p>
+                        <h6>
+                            <p>If you ever run into any problems, just use chat and we'll help you get it fixed fast.
+                            </p>
+                        </h6>
+                        <p class="btn help_btn">LIVE CHAT</p>
+                    </div>
                 </section>
                 <section class="help_main">
-                    <div><a href="#">img</a></div>
-                    <p>Discover Our Blog</p>
-                    <h6>
-                        <p>Get great advice, tips, and tricks from the professionals that know the domain, hosting, and
-                            website building industry.</p>
-                    </h6>
-                    <p class="btn"><a href="#">START LEARNING</a></p>
+                    <div class="help_img"><a href="#">img</a></div>
+                    <div>
+                        <p>Discover Our Blog</p>
+                        <h6>
+                            <p>Get great advice, tips, and tricks from the professionals that know the domain, hosting,
+                                and
+                                website building industry.</p>
+                        </h6>
+                        <p class="btn help_btn">START LEARNING</p>
+                    </div>
                 </section>
                 <section class="help_main">
-                    <div><a href="#">img</a></div>
-                    <p>Visit Our Knowledgebase</p>
-                    <h6>
-                        <p>Browse our Knowledgebase to see what others like you are asking, and get the answers you're
-                            looking for right away.</p>
-                    </h6>
-                    <p class="btn"><a href="#">FIND RESOURCES</a></p>
+                    <div class="help_img"><a href="#">img</a></div>
+                    <div>
+                        <p>Visit Our Knowledgebase</p>
+                        <h6>
+                            <p>Browse our Knowledgebase to see what others like you are asking, and get the answers
+                                you're
+                                looking for right away.</p>
+                        </h6>
+                        <p class="btn help_btn">FIND RESOURCES</p>
+                    </div>
                 </section>
             </section>
         </section>
@@ -422,8 +462,10 @@
                             audience and
                             builds credibility.</p>
                     </h6>
+                    <br>
                     <h6>
-                        <p>Branding: Branding is much more than just the name of your business. Everything, from the
+                        <p>
+                            Branding: Branding is much more than just the name of your business. Everything, from the
                             colors you use,
                             your logo, or even the feelings associated with your business is your branding. Ensure you
                             are
@@ -431,10 +473,13 @@
                             on the
                             right foot with any prospective customer. Whether you are setting yourself apart from the
                             competition or
-                            simply establishing yourself, you are limiting yourself without a website.</p>
+                            simply establishing yourself, you are limiting yourself without a website.
+                        </p>
                     </h6>
+                    <br>
                     <h6>
-                        <p>Organic Traffic: Once your website is complete and you are online you can start to show up in
+                        <p>
+                            Organic Traffic: Once your website is complete and you are online you can start to show up in
                             Google's
                             search results, also called organic or natural search results. With the right optimizations,
                             organic
@@ -442,7 +487,8 @@
                             on the market
                             to purchase, this gives smaller shops and businesses an opportunity to compete with larger
                             competitors.
-                            See how SEO can influence your website here.</p>
+                            See how SEO can influence your website here.
+                        </p>
                     </h6>
                 </article>
             </section>
@@ -456,6 +502,7 @@
     <div class="aft_quest">
         <h6>
             <div>
+                <br><br><br><br><br><br><br><br>
                 <p>* The introductory prices are for the first term of service only and automatically renew at the
                     regular rate.</p>
             </div>
